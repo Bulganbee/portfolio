@@ -44,5 +44,23 @@ footer {
 	padding-top: 20px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-
 }
+.topnav {
+	overflow: hidden;
+}
+.topnav a {
+	float: right;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-right: 20px;
+  }
+  .topsection {
+	position: sticky;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 20px;
+	padding-top: 20px;
+	background-color: aliceblue;
+  }
