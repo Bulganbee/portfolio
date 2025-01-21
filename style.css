@@ -40,10 +40,12 @@ section {
 footer {
 	border-top: 1px solid;
 	border-color:#CBCBCB;
-	padding: 40px;
+	padding-left: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	align-items:center;
 }
 .topnav {
 	overflow: hidden;
@@ -60,7 +62,12 @@ footer {
 	position: sticky;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	align-items:center;
 	padding-left: 20px;
 	padding-top: 20px;
 	background-color: aliceblue;
+  }
+  #footerheader {
+	font-weight: normal;
+	font-size: 20px;
   }
