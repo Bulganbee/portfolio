@@ -1,17 +1,28 @@
 
 .projectpreview {
+	border-top: 1px solid;
+	border-color:#CBCBCB;
+}
+.projectpreviewall {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items:start;
 	padding-top: 10px;
 	padding-bottom: 32px;
-	border-top: 1px solid;
-
+	margin-left: 80px;
+	margin-right: 80px;
 }
 body {
 	font-family: "Urbanist", serif;
-	margin-left: 100px;
-	margin-right: 100px;
+}
+header {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	line-height: 40px;
+}
+h1 {
+	font-size: 28px;
 }
 h2 {
 	font-size: 24px;
@@ -24,5 +35,14 @@ h2 {
 	line-height: 32px;
 }
 section {
-	padding-bottom: 100px;
+	padding-bottom: 40px; 
+}
+footer {
+	border-top: 1px solid;
+	border-color:#CBCBCB;
+	padding: 40px;
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
 }
