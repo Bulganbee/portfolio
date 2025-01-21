@@ -1,16 +1,6 @@
-
 .projectpreview {
 	border-top: 1px solid;
 	border-color:#CBCBCB;
-}
-.projectpreviewall {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	align-items:start;
-	padding-top: 10px;
-	padding-bottom: 32px;
-	margin-left: 80px;
-	margin-right: 80px;
 }
 body {
 	font-family: "Urbanist", serif;
@@ -47,9 +37,6 @@ footer {
 	grid-template-columns: 1fr 1fr;
 	align-items:center;
 }
-.topnav {
-	overflow: hidden;
-}
 .topnav a {
 	float: right;
 	padding: 14px 16px;
@@ -69,7 +56,4 @@ footer {
 	font-weight: normal;
 	font-size: 20px;
   }
-  img {
-	width:600px;
-	height:270px;
-  }
+
