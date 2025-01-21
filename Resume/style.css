@@ -1,0 +1,21 @@
+
+.projectpreview {
+	border-top: 1px solid;
+	border-color:#CBCBCB;
+}
+.projectpreviewall {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items:start;
+	padding-top: 10px;
+	padding-bottom: 32px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.topnav {
+	overflow: hidden;
+}
+  img {
+	width:600px;
+	height:270px;
+  }
