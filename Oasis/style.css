@@ -3,73 +3,19 @@
 	border-top: 1px solid;
 	border-color:#CBCBCB;
 }
-.projectpreviewall {
+  img {
+	width:800px;
+	height:460px;
+  }
+  section {
+	margin-left: 60px;
+	margin-right: 60px;
+  }
+
+.a {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	align-items:start;
-	padding-top: 10px;
-	padding-bottom: 32px;
-	margin-left: 80px;
-	margin-right: 80px;
-}
-body {
-	font-family: "Urbanist", serif;
-}
-header {
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	line-height: 40px;
-}
-h1 {
-	font-size: 28px;
-}
-h2 {
-	font-size: 24px;
-	font-weight: 600;
-}
-.detailsparagraph {
-	font-size: 20px;
-}
-.titleanddetails {
-	line-height: 32px;
-}
-section {
-	padding-bottom: 40px; 
-}
-footer {
+	grid-template-columns: 2fr 1fr;
 	border-top: 1px solid;
 	border-color:#CBCBCB;
-	padding-left: 20px;
 	padding-top: 20px;
-	padding-bottom: 20px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items:center;
 }
-.topnav {
-	overflow: hidden;
-}
-.topnav a {
-	float: right;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	margin-right: 20px;
-  }
-  .topsection {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items:center;
-	padding-left: 20px;
-	padding-top: 20px;
-	background-color: aliceblue;
-  }
-  #footerheader {
-	font-weight: normal;
-	font-size: 20px;
-  }
-  img {
-	width:600px;
-	height:270px;
-  }
