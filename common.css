@@ -1,9 +1,10 @@
 .projectpreview {
 	border-top: 1px solid;
-	border-color:#CBCBCB;
+	border-color:#b6b5b5;
 }
 body {
 	font-family: "Urbanist", serif;
+	background-color: #f2f2f2;
 }
 header {
 	text-align: center;
@@ -19,13 +20,20 @@ h2 {
 	font-weight: 600;
 }
 .detailsparagraph {
-	font-size: 20px;
+	font-size: 17px;
 }
 .titleanddetails {
 	line-height: 32px;
 }
 section {
 	padding-bottom: 40px; 
+}
+.location {
+	color: rgb(130, 130, 130);
+}
+em {
+	font-weight: 600;
+	color: rgb(66, 66, 66);
 }
 footer {
 	border-top: 1px solid;
@@ -53,7 +61,7 @@ footer {
 	align-items:center;
 	padding-left: 20px;
 	padding-top: 20px;
-	background-color: aliceblue;
+	background-color: rgb(252, 252, 252);
   }
   #footerheader {
 	font-weight: normal;
